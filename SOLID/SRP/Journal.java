@@ -20,4 +20,23 @@ public class Journal {
     public String toString() {
         return String.join(System.lineSeparator(), entries);
     }
+
+    // Breaks Single Responsability Principle
+    // Now our Journal is also handling persistance, wich is not correct. Add this
+    // methods in a separate Persistence class
+    /*
+     * public void save(String filename) {
+     * try (PrintStream out = new PrintStream(filename)) {
+     * out.println(toString());
+     * }
+     * }
+     * 
+     * public void loadFile(String filename) {
+     * // ...
+     * }
+     * 
+     * public void loadFromUrl(String url) {
+     * // ..
+     * }
+     */
 }
