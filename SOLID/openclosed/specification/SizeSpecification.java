@@ -1,7 +1,7 @@
-package SOLID.OCP.specification;
+package SOLID.openclosed.specification;
 
-import SOLID.OCP.Product;
-import SOLID.OCP.Size;
+import SOLID.openclosed.Product;
+import SOLID.openclosed.Size;
 
 public class SizeSpecification implements Specification<Product> {
 

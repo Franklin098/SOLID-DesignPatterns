@@ -1,4 +1,4 @@
-# Single Responsability Principle
+# Single Responsability Principle Demo
 
 The Journal class should only have methods and characteristis that are logic and belong to 'a journal'.
 

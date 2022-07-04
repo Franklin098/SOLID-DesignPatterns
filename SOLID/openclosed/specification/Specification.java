@@ -1,4 +1,4 @@
-package SOLID.OCP.specification;
+package SOLID.openclosed.specification;
 
 // adding abstractions to implement Open-Closed Principle
 public interface Specification<T> {

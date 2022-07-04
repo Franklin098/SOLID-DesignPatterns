@@ -1,11 +1,11 @@
-package SOLID.OCP;
+package SOLID.openclosed;
 
 import java.util.List;
 
-import SOLID.OCP.specification.AndSpecification;
-import SOLID.OCP.specification.BetterFilter;
-import SOLID.OCP.specification.ColorSpefication;
-import SOLID.OCP.specification.SizeSpecification;
+import SOLID.openclosed.specification.AndSpecification;
+import SOLID.openclosed.specification.BetterFilter;
+import SOLID.openclosed.specification.ColorSpefication;
+import SOLID.openclosed.specification.SizeSpecification;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package SOLID.OCP;
+package SOLID.openclosed;
 
 import java.util.List;
 import java.util.stream.Stream;

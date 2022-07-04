@@ -1,4 +1,4 @@
-package SOLID.OCP;
+package SOLID.openclosed;
 
 public class Product {
     public String name;

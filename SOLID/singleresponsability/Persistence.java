@@ -1,4 +1,4 @@
-package SOLID.SRP;
+package SOLID.singleresponsability;
 
 import java.io.File;
 import java.io.PrintStream;

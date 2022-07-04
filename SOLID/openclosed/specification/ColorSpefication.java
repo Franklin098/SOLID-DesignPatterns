@@ -1,7 +1,7 @@
-package SOLID.OCP.specification;
+package SOLID.openclosed.specification;
 
-import SOLID.OCP.Color;
-import SOLID.OCP.Product;
+import SOLID.openclosed.Color;
+import SOLID.openclosed.Product;
 
 public class ColorSpefication implements Specification<Product> {
 

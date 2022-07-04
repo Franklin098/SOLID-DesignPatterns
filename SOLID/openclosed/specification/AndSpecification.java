@@ -1,4 +1,4 @@
-package SOLID.OCP.specification;
+package SOLID.openclosed.specification;
 
 // AND operator specification, keep it generic, as we can do AND operations in whatever type <T>
 public class AndSpecification<T> implements Specification<T> {
