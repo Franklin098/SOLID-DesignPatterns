@@ -70,3 +70,27 @@ Sometimes we want to implement a given interface but just fot the sake of some m
 * When it is possible we should **break our interfaces in many smaller ones** so they better satisfy the exact needs of our clients.
 
 Breaking Interface Segreation Principle also breaks Single Responsability Principle.
+
+> See interfacesegregation package for a demo.
+
+# Dependency Inversion Principle
+
+**High-level modules should not depend on low-level modules. Both should depend on abstractions.**
+
+**Abstractions should not depend on details. Details (concrete implementations) should depend on abstractions.**
+
+Usually we start implementing low-level modules, and then the high-level modules that are going to heavily rely on the low-level modules.
+
+For example an Application (high-level module) that uses Bluetooth, Json Parser, SQL (low level modules).
+
+But what if we want to change our SQL Database ? we'll need to change the low level modules implementation, but we also would need to change the high level module logic.
+
+If we change the low level module, then we also will need to change the high level modules.
+
+Instead of direct communication, we need to add an abstract modules between the communication of high-level modules and low-level modules.
+
+For example: we know that there is going to be a Data Base, doesn't matter if it is an Oracle, MySQL or non-relational database. We just need to know that there is going to be some service with Get or Save operations.
+
+We use Interfaces and Abstract Classes to create abstractions.
+
+> See dependencyinversion package for a demo.
