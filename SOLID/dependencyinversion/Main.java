@@ -11,7 +11,7 @@ public class Main {
         relationships.addParentAndChild(parent, child1);
         relationships.addParentAndChild(parent, child2);
 
-        Research research = new Research(relationships);
+        // Research research = new Research(relationships);
 
         // Using abstractios to Implement Dependency Inverison Principle
         RelationshipBrowser browser = new Relantionships();
@@ -19,5 +19,6 @@ public class Main {
         browser.addParentAndChild(parent, child2);
 
         Research research2 = new Research(browser);
+        research2.toString();
     }
 }
